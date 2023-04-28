@@ -1,20 +1,20 @@
 {
-  "name": "login-and-signup-page",
+  "name": "login-and-signup-form-node-js-and-mongodb",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
-    "express.js": "^1.0.0",
-    "knex": "^2.4.2",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
     "mongoose": "^7.0.3",
     "nodemon": "^2.0.22",
-    "pg": "^8.10.0"
+    "pug": "^3.0.2"
   }
 }
